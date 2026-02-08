@@ -7,6 +7,7 @@
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
+  <a href="index.html" style="position:absolute;top:1em;left:1em;z-index:10;font-weight:600;background:#fff;padding:0.5em 1em;border-radius:4px;text-decoration:none;box-shadow:0 2px 6px rgba(0,0,0,0.08);color:#333;">← Volver a la página principal</a>
   <header class="hero">
     <div class="overlay"></div>
     <div class="hero-content">
@@ -21,19 +22,74 @@
     </nav>
   </header>
   <main class="container">
-        <section class="section warning">
-          <h2>Importante</h2>
-          <p>Recomendamos reservar alojamiento con antelación, ya que durante esos días se celebra la Noche Templaria en Ponferrada y puede haber muchos peregrinos (el Camino de Santiago pasa por Molinaseca).</p>
-        </section>
-    <section class="section">
-      <h2>Opciones de alojamiento</h2>
-      <p>El lugar de la boda dispone de alojamiento (<a href="https://no-mad-hotel.es/en/" target="_blank" rel="noopener" class="button" style="display:inline-block;padding:0.5em 1em;background:#007bff;color:#fff;border-radius:4px;text-decoration:none;font-weight:600;box-shadow:0 2px 6px rgba(0,0,0,0.08);">Hotel Nomad</a>). <strong>Las habitaciones están bloqueadas por defecto</strong>. Si estás interesado, por favor contáctanos y reservaremos la habitación por ti.</p>
-      <p>Además, Molinaseca es un bonito pueblo turístico y hay más opciones de alojamiento, incluyendo hoteles, AirBnB y casas rurales tradicionales.</p>
+    
+    <!-- Important Notice -->
+    <div style="background:#fff3cd;border-left:4px solid #ffc107;padding:1.8rem;border-radius:8px;margin-bottom:3rem;box-shadow:0 4px 12px rgba(0,0,0,0.06);">
+      <h3 style="font-size:1.3rem;margin-bottom:0.8rem;color:#856404;">⚠️ Importante</h3>
+      <p style="margin:0;color:#856404;line-height:1.8;">
+        <strong>Reserva con antelación.</strong> Durante esas fechas se celebra la <strong>Noche Templaria</strong> en Ponferrada y el <strong>Camino de Santiago</strong> pasa por Molinaseca, por lo que puede haber muchos peregrinos y visitantes.
+      </p>
+    </div>
+
+    <!-- Hotel Nomad Section -->
+    <section style="margin-bottom:4rem;">
+      <div style="background:#fff;padding:2.5rem;border-radius:12px;box-shadow:0 10px 30px rgba(0,0,0,0.08);border-top:4px solid #2d5d3f;">
+        <h2 style="margin-bottom:1.5rem;font-size:1.8rem;color:#2d5d3f;">🏨 Hotel Nomad - En el lugar de la boda</h2>
+        
+        <p style="font-size:1.1rem;line-height:1.9;color:#555;margin-bottom:1.5rem;">
+          El lugar de la boda dispone de alojamiento en el <strong>Hotel Nomad</strong>. Una opción muy cómoda si quieres disfrutar de la celebración sin preocuparte del desplazamiento.
+        </p>
+        
+        <div style="background:#f8f9fa;padding:1.5rem;border-radius:8px;margin-bottom:1.5rem;">
+          <p style="margin:0;color:#555;line-height:1.8;">
+            <strong style="color:#d63384;">⚠️ Atención:</strong> Las habitaciones están <strong>bloqueadas por defecto</strong> para los invitados de la boda. Si estás interesado en alojarte en el hotel, <strong>contáctanos directamente</strong> y gestionaremos la reserva por ti.
+          </p>
+        </div>
+
+        <div style="text-align:center;">
+          <a href="https://no-mad-hotel.es/en/" target="_blank" rel="noopener" style="display:inline-block;padding:0.85em 2em;background:#2d5d3f;color:#fff;border-radius:6px;text-decoration:none;font-weight:600;box-shadow:0 4px 12px rgba(45,93,63,0.25);transition:all 0.3s;margin-right:1rem;">🌐 Ver Hotel Nomad</a>
+          <a href="mailto:luisycristina@example.com" style="display:inline-block;padding:0.85em 2em;background:#6c757d;color:#fff;border-radius:6px;text-decoration:none;font-weight:600;box-shadow:0 4px 12px rgba(108,117,125,0.25);transition:all 0.3s;">✉️ Contáctanos</a>
+        </div>
+      </div>
     </section>
-    <section class="section">
-      <h2>Reservas</h2>
-      <p>Se recomienda reservar con antelación. Consulta las opciones y tarifas en los enlaces de cada alojamiento.</p>
+
+    <!-- Other Accommodation Options -->
+    <section style="margin-bottom:4rem;">
+      <h2 style="text-align:center;margin-bottom:2.5rem;font-size:2rem;">Otras opciones de alojamiento</h2>
+      
+      <p style="text-align:center;font-size:1.1rem;color:#555;max-width:700px;margin:0 auto 2.5rem;line-height:1.8;">
+        Molinaseca es un bonito pueblo turístico con diversas opciones de alojamiento para todos los gustos y presupuestos.
+      </p>
+
+      <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:2rem;">
+        
+        <div style="background:#fff;padding:2rem;border-radius:12px;box-shadow:0 8px 24px rgba(0,0,0,0.06);text-align:center;">
+          <div style="font-size:3rem;margin-bottom:1rem;">🏨</div>
+          <h3 style="font-size:1.3rem;margin-bottom:0.8rem;color:#2d5d3f;">Hoteles</h3>
+          <p style="line-height:1.8;color:#555;">Varias opciones hoteleras en Molinaseca y Ponferrada, desde hoteles boutique hasta opciones económicas.</p>
+        </div>
+
+        <div style="background:#fff;padding:2rem;border-radius:12px;box-shadow:0 8px 24px rgba(0,0,0,0.06);text-align:center;">
+          <div style="font-size:3rem;margin-bottom:1rem;">🏠</div>
+          <h3 style="font-size:1.3rem;margin-bottom:0.8rem;color:#2d5d3f;">Airbnb</h3>
+          <p style="line-height:1.8;color:#555;">Apartamentos y casas completas ideales para grupos o familias que quieren más espacio e independencia.</p>
+        </div>
+
+        <div style="background:#fff;padding:2rem;border-radius:12px;box-shadow:0 8px 24px rgba(0,0,0,0.06);text-align:center;">
+          <div style="font-size:3rem;margin-bottom:1rem;">🏡</div>
+          <h3 style="font-size:1.3rem;margin-bottom:0.8rem;color:#2d5d3f;">Casas rurales</h3>
+          <p style="line-height:1.8;color:#555;">Alojamientos con encanto en entornos naturales. Perfectos para una experiencia auténtica del Bierzo.</p>
+        </div>
+
+      </div>
+
+      <div style="background:#f8f9fa;padding:1.5rem;border-left:4px solid #2d5d3f;border-radius:6px;margin-top:2.5rem;">
+        <p style="margin:0;color:#555;line-height:1.8;">
+          💡 <strong>Consejo:</strong> Busca alojamiento en plataformas como Booking.com, Airbnb o portales de turismo rural. Cuanto antes reserves, más opciones tendrás disponibles.
+        </p>
+      </div>
     </section>
+
   </main>
   <footer>
     <p>Con cariño, Luis & Cristina</p>
