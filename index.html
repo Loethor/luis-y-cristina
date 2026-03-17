@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <title>Luis & Cristina — Boda</title>
+  <title data-i18n-title="index_title">Luis &amp; Cristina — Boda</title>
 
   <link rel="stylesheet" href="style.css" />
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -20,17 +20,17 @@
 
     <!-- Hero content -->
     <div class="hero-content">
-      <h1>Luis & Cristina</h1>
-      <p class="date">4 de julio de 2026 · Ponferrada, España</p>
+      <h1>Luis &amp; Cristina</h1>
+      <p class="date" data-i18n="hero_date">4 de julio de 2026 · Ponferrada, España</p>
     </div>
 
     <!-- Language Switcher -->
     <nav class="language-switcher">
-      <a href="index.html" class="active">ES</a>
+      <a href="?lang=es">ES</a>
       <span>·</span>
-      <a href="index_gl.html">GL</a>
+      <a href="?lang=gl">GL</a>
       <span>·</span>
-      <a href="index_en.html">EN</a>
+      <a href="?lang=en">EN</a>
     </nav>
 
   </header>
@@ -38,8 +38,8 @@
   <main class="container">
 
     <section class="section">
-      <h2>¡Nos casamos!</h2>
-      <p>
+      <h2 data-i18n="we_are_getting_married">¡Nos casamos!</h2>
+      <p data-i18n="intro">
         Nos conocimos, reímos, construimos una vida juntos — y ahora estamos listos para el siguiente capítulo.
         Nos encantaría que nos acompañaras en nuestro gran día.
       </p>
@@ -47,26 +47,21 @@
 
     <section class="section details">
       <div>
-        <h3>Preboda</h3>
-        <p>3 de julio de 2026</p>
-        <p>La Obrera, Ponferrada</p>
+        <h3 data-i18n="prewedding">Preboda</h3>
+        <p data-i18n="prewedding_date">3 de julio de 2026</p>
+        <p data-i18n="prewedding_venue">La Obrera, Ponferrada</p>
       </div>
 
       <div>
-        <h3>Ceremonia</h3>
-        <p>4 de julio de 2026<br>16:00</p>
-        <p>Ponferrada</p>
+        <h3 data-i18n="ceremony">Ceremonia</h3>
+        <p data-i18n="ceremony_date">4 de julio de 2026<br>16:00</p>
+        <p data-i18n="ceremony_venue">Ponferrada</p>
       </div>
 
       <div>
-        <h3>Celebración</h3>
-        <p>19:00</p>
-        <p>Ponferrada</p>
-      </div>
-
-      <div>
-        <h3>Código de vestimenta</h3>
-        <p>Elegante · Verano chic</p>
+        <h3 data-i18n="reception">Celebración</h3>
+        <p data-i18n="reception_time">19:00</p>
+        <p data-i18n="reception_venue">Ponferrada</p>
       </div>
     </section>
 
@@ -77,38 +72,39 @@
         <!-- Venue Card -->
         <a href="venue.html" style="background:#fff;padding:2rem;border-radius:12px;box-shadow:0 8px 24px rgba(0,0,0,0.06);text-decoration:none;color:inherit;transition:transform 0.3s,box-shadow 0.3s;display:block;">
           <div style="font-size:2.5rem;margin-bottom:1rem;text-align:center;">📍</div>
-          <h3 style="font-size:1.4rem;margin-bottom:0.8rem;color:#2d5d3f;text-align:center;">Cómo llegar</h3>
-          <p style="line-height:1.8;color:#555;text-align:center;">Encuentra información sobre cómo llegar al lugar de la boda en De Floriana, Molinaseca.</p>
+          <h3 style="font-size:1.4rem;margin-bottom:0.8rem;color:#2d5d3f;text-align:center;" data-i18n="card_venue_title">Cómo llegar</h3>
+          <p style="line-height:1.8;color:#555;text-align:center;" data-i18n="card_venue_desc">Encuentra información sobre cómo llegar al lugar de la boda en De Floriana, Molinaseca.</p>
         </a>
 
         <!-- Tourism Card -->
         <a href="tourism.html" style="background:#fff;padding:2rem;border-radius:12px;box-shadow:0 8px 24px rgba(0,0,0,0.06);text-decoration:none;color:inherit;transition:transform 0.3s,box-shadow 0.3s;display:block;">
           <div style="font-size:2.5rem;margin-bottom:1rem;text-align:center;">🏰</div>
-          <h3 style="font-size:1.4rem;margin-bottom:0.8rem;color:#2d5d3f;text-align:center;">Qué hacer en la zona</h3>
-          <p style="line-height:1.8;color:#555;text-align:center;">Descubre lugares para visitar, rutas, gastronomía y actividades en el Bierzo.</p>
+          <h3 style="font-size:1.4rem;margin-bottom:0.8rem;color:#2d5d3f;text-align:center;" data-i18n="card_tourism_title">Qué hacer en la zona</h3>
+          <p style="line-height:1.8;color:#555;text-align:center;" data-i18n="card_tourism_desc">Descubre lugares para visitar, rutas, gastronomía y actividades en el Bierzo.</p>
         </a>
 
         <!-- Accommodation Card -->
         <a href="accommodation.html" style="background:#fff;padding:2rem;border-radius:12px;box-shadow:0 8px 24px rgba(0,0,0,0.06);text-decoration:none;color:inherit;transition:transform 0.3s,box-shadow 0.3s;display:block;">
           <div style="font-size:2.5rem;margin-bottom:1rem;text-align:center;">🏨</div>
-          <h3 style="font-size:1.4rem;margin-bottom:0.8rem;color:#2d5d3f;text-align:center;">Alojamiento</h3>
-          <p style="line-height:1.8;color:#555;text-align:center;">Consulta opciones de alojamiento en Molinaseca y alrededores.</p>
+          <h3 style="font-size:1.4rem;margin-bottom:0.8rem;color:#2d5d3f;text-align:center;" data-i18n="card_accommodation_title">Alojamiento</h3>
+          <p style="line-height:1.8;color:#555;text-align:center;" data-i18n="card_accommodation_desc">Consulta opciones de alojamiento en Molinaseca y alrededores.</p>
         </a>
 
       </div>
     </section>
 
     <section class="section rsvp">
-      <h2>Confirmación de asistencia</h2>
-      <p>Por favor, confirma tu asistencia antes del 15 de mayo de 2026.</p>
-      <a href="#" class="button">Confirmar asistencia</a>
+      <h2 data-i18n="rsvp_title">Confirmación de asistencia</h2>
+      <p data-i18n="rsvp_desc">Por favor, confirma tu asistencia antes del 15 de mayo de 2026.</p>
+      <a href="https://docs.google.com/forms/d/e/1FAIpQLSfWx--zqeuAYUKAPffLfw3C7wRxd3Vyp9DjTfFnMgD5AR9fqQ/viewform?usp=publish-editor" target="_blank" rel="noopener" class="button" data-i18n="rsvp_button">Confirmar asistencia</a>
     </section>
 
   </main>
 
   <footer>
-    <p>Con cariño, Luis & Cristina</p>
+    <p data-i18n="footer">Con cariño, Luis &amp; Cristina</p>
   </footer>
 
+  <script src="js/i18n.js"></script>
 </body>
 </html>

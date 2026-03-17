@@ -3,59 +3,59 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Cómo llegar al lugar de la boda</title>
+  <title data-i18n-title="venue_title">Cómo llegar al lugar de la boda</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <a href="index.html" style="position:absolute;top:1em;left:1em;z-index:10;font-weight:600;background:#fff;padding:0.5em 1em;border-radius:4px;text-decoration:none;box-shadow:0 2px 6px rgba(0,0,0,0.08);color:#333;">← Volver a la página principal</a>
+  <a href="index.html" data-i18n="back_link" style="position:absolute;top:1em;left:1em;z-index:10;font-weight:600;background:#fff;padding:0.5em 1em;border-radius:4px;text-decoration:none;box-shadow:0 2px 6px rgba(0,0,0,0.08);color:#333;">← Volver a la página principal</a>
   <header class="hero">
     <div class="overlay"></div>
     <div class="hero-content">
-      <h1>Cómo llegar al lugar de la boda</h1>
+      <h1 data-i18n="venue_h1">Cómo llegar al lugar de la boda</h1>
     </div>
     <nav class="language-switcher">
-      <a href="venue.html" class="active">ES</a>
+      <a href="?lang=es">ES</a>
       <span>·</span>
-      <a href="venue_gl.html">GL</a>
+      <a href="?lang=gl">GL</a>
       <span>·</span>
-      <a href="venue_en.html">EN</a>
+      <a href="?lang=en">EN</a>
     </nav>
   </header>
   <main class="container">
-    
+
     <!-- Address Card -->
     <section class="section">
       <div style="background:#fff;padding:2.5rem;border-radius:12px;box-shadow:0 10px 30px rgba(0,0,0,0.08);margin-bottom:2rem;">
-        <h2 style="margin-bottom:1.5rem;color:#2b2b2b;">📍 Dirección</h2>
-        <p style="font-size:1.1rem;line-height:1.8;margin-bottom:1.5rem;"><strong>De Floriana</strong>, Molinaseca, León, España</p>
-        <p style="font-size:1rem;line-height:1.8;color:#555;margin-bottom:1.5rem;">
-          El lugar de la boda se encuentra a la entrada de Molinaseca. Lo encontrarás a mano derecha desde la carretera de Ponferrada. 
+        <h2 style="margin-bottom:1.5rem;color:#2b2b2b;" data-i18n="venue_address_heading">📍 Dirección</h2>
+        <p style="font-size:1.1rem;line-height:1.8;margin-bottom:1.5rem;" data-i18n="venue_address"><strong>De Floriana</strong>, Molinaseca, León, España</p>
+        <p style="font-size:1rem;line-height:1.8;color:#555;margin-bottom:1.5rem;" data-i18n="venue_directions">
+          El lugar de la boda se encuentra a la entrada de Molinaseca. Lo encontrarás a mano derecha desde la carretera de Ponferrada.
           <br><br>
           <strong>Parking:</strong> Floriana no dispone de parking propio, pero hay aparcamiento gratuito cerca del lugar.
         </p>
-        <a href="https://maps.app.goo.gl/uZFi9dTMotn119619" target="_blank" rel="noopener" class="button" style="display:inline-block;padding:0.85em 1.8em;background:#2d5d3f;color:#fff;border-radius:6px;text-decoration:none;font-weight:600;box-shadow:0 4px 12px rgba(45,93,63,0.25);transition:all 0.3s;">🗺️ Ver en Google Maps</a>
+        <a href="https://maps.app.goo.gl/uZFi9dTMotn119619" target="_blank" rel="noopener" class="button" data-i18n="venue_maps_btn" style="display:inline-block;padding:0.85em 1.8em;background:#2d5d3f;color:#fff;border-radius:6px;text-decoration:none;font-weight:600;box-shadow:0 4px 12px rgba(45,93,63,0.25);transition:all 0.3s;">🗺️ Ver en Google Maps</a>
       </div>
     </section>
 
     <!-- Transportation Options -->
     <section class="section" style="text-align:left;">
-      <h2 style="text-align:center;margin-bottom:2.5rem;font-size:2rem;">Cómo llegar</h2>
-      
+      <h2 style="text-align:center;margin-bottom:2.5rem;font-size:2rem;" data-i18n="venue_how_to_get">Cómo llegar</h2>
+
       <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:2rem;margin-bottom:2rem;">
-        
+
         <!-- By Car -->
         <div style="background:#fff;padding:2rem;border-radius:12px;box-shadow:0 8px 24px rgba(0,0,0,0.06);">
-          <h3 style="font-size:1.4rem;margin-bottom:1rem;color:#2b2b2b;">🚗 En coche</h3>
-          <p style="line-height:1.8;color:#555;">
+          <h3 style="font-size:1.4rem;margin-bottom:1rem;color:#2b2b2b;" data-i18n="venue_by_car">🚗 En coche</h3>
+          <p style="line-height:1.8;color:#555;" data-i18n="venue_by_car_desc">
             Molinaseca está a <strong>7 km de Ponferrada</strong>. Llegarás fácilmente por la carretera <strong>LE-142</strong>.
           </p>
         </div>
 
         <!-- By Plane -->
         <div style="background:#fff;padding:2rem;border-radius:12px;box-shadow:0 8px 24px rgba(0,0,0,0.06);">
-          <h3 style="font-size:1.4rem;margin-bottom:1rem;color:#2b2b2b;">✈️ En avión</h3>
-          <p style="line-height:1.8;color:#555;margin-bottom:1rem;">Aeropuertos más cercanos:</p>
-          <ul style="list-style:none;padding:0;line-height:2;color:#555;">
+          <h3 style="font-size:1.4rem;margin-bottom:1rem;color:#2b2b2b;" data-i18n="venue_by_plane">✈️ En avión</h3>
+          <p style="line-height:1.8;color:#555;margin-bottom:1rem;" data-i18n="venue_by_plane_nearest">Aeropuertos más cercanos:</p>
+          <ul style="list-style:none;padding:0;line-height:2;color:#555;" data-i18n="venue_airports">
             <li>🔹 <strong>Oviedo (Asturias):</strong> 2h 30min</li>
             <li>🔹 <strong>Santiago:</strong> 2h 30min</li>
             <li>🔹 <strong>Madrid:</strong> 4h</li>
@@ -66,21 +66,32 @@
 
       <!-- Transportation Note -->
       <div style="background:#f8f9fa;padding:1.5rem;border-left:4px solid #2d5d3f;border-radius:6px;margin-top:2rem;">
-        <p style="margin:0;color:#555;line-height:1.8;">
+        <p style="margin:0;color:#555;line-height:1.8;" data-i18n="venue_tip">
           💡 <strong>Consejo:</strong> Hay transporte público para llegar a Ponferrada, pero recomendamos alquilar un coche para mayor comodidad durante tu estancia.
         </p>
       </div>
 
       <!-- Airport Map -->
       <div style="margin-top:2rem;text-align:center;">
-        <img src="images/airports.png" alt="Mapa de aeropuertos cercanos a Molinaseca" style="max-width:100%;border-radius:12px;box-shadow:0 8px 24px rgba(0,0,0,0.08);" />
+        <img src="images/airports.png" data-i18n-alt="venue_airport_map_alt" alt="Mapa de aeropuertos cercanos a Molinaseca" style="max-width:100%;border-radius:12px;box-shadow:0 8px 24px rgba(0,0,0,0.08);" />
+        <!-- Map Legend -->
+        <div style="display:inline-flex;flex-wrap:wrap;justify-content:center;gap:0.6rem 1.4rem;margin-top:1rem;background:#f8f9fa;padding:1rem 1.5rem;border-radius:8px;">
+          <span style="font-size:0.9rem;color:#555;">📍 1 — Floriana</span>
+          <span style="font-size:0.9rem;color:#555;">📍 2 — Ponferrada</span>
+          <span style="font-size:0.9rem;color:#555;" data-i18n="venue_map_point3">✈️ 3 — Aeropuerto de Madrid</span>
+          <span style="font-size:0.9rem;color:#555;" data-i18n="venue_map_point4">✈️ 4 — Aeropuerto de Oviedo</span>
+          <span style="font-size:0.9rem;color:#555;" data-i18n="venue_map_point5">✈️ 5 — Aeropuerto de Santiago de Compostela</span>
+        </div>
       </div>
+
+
 
     </section>
 
   </main>
   <footer>
-    <p>Con cariño, Luis & Cristina</p>
+    <p data-i18n="footer">Con cariño, Luis &amp; Cristina</p>
   </footer>
+  <script src="js/i18n.js"></script>
 </body>
 </html>
