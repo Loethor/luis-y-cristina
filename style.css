@@ -27,10 +27,12 @@ a {
 .hero {
   position: relative;
   height: 90vh;
-  background: url("images/hero.jpg") center/cover no-repeat;
+  min-height: 500px;
+  background: url("images/hero.jpg") center 30% / cover no-repeat;
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: center;
+  padding-top: 10vh;
 }
 
 .hero .overlay {
@@ -128,7 +130,9 @@ footer {
 @media (max-width: 768px) {
   /* Hero adjustments */
   .hero {
-    height: 70vh;
+    height: 75vh;
+    min-height: 420px;
+    background-position: center top;
   }
 
   .hero h1 {
