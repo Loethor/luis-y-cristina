@@ -132,7 +132,7 @@ footer {
   .hero {
     height: 75vh;
     min-height: 420px;
-    background-position: 85% top;
+    background-position: center top;
   }
 
   .hero h1 {
