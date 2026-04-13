@@ -101,6 +101,12 @@
   "accommodation_nomad_heading": "🏨 Hotel Nomad - Lugar de la boda",
   "accommodation_nomad_desc": "El lugar de la boda dispone de alojamiento en el <strong>Hotel Nomad</strong>. Una opción muy cómoda si quieres disfrutar de la celebración sin preocuparte del desplazamiento.",
   "accommodation_nomad_attention": "<strong style=\"color:#d63384;\">⚠️ Atención:</strong> Las habitaciones están <strong>bloqueadas por defecto</strong> para los invitados de la boda. Si estás interesado en alojarte en el hotel, <strong>contáctanos directamente</strong> y gestionaremos la reserva por ti, <strong>priorizando a la gente que viva lejos</strong>.",
+  "accommodation_nomad_prices_heading": "💶 Precios por noche",
+  "accommodation_nomad_col_friday": "Viernes",
+  "accommodation_nomad_col_saturday": "Sábado",
+  "accommodation_nomad_row_single": "Individual",
+  "accommodation_nomad_row_double": "Doble",
+  "accommodation_nomad_extra_bed": "🛏️ Cama extra: 30€",
 
   "accommodation_other_heading": "Otras opciones de alojamiento",
   "accommodation_other_intro": "Molinaseca es un bonito pueblo turístico con diversas opciones de alojamiento para todos los gustos y presupuestos.",

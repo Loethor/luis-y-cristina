@@ -101,6 +101,12 @@
   "accommodation_nomad_heading": "🏨 Hotel Nomad - Lugar da voda",
   "accommodation_nomad_desc": "O lugar da voda dispón de aloxamento no <strong>Hotel Nomad</strong>. Unha opción moi cómoda se queres desfrutar da celebración sen preocuparte do desprazamento.",
   "accommodation_nomad_attention": "<strong style=\"color:#d63384;\">⚠️ Atención:</strong> As habitacións están <strong>bloqueadas por defecto</strong> para os invitados da voda. Se estás interesado en aloxarte no hotel, <strong>contáctanos directamente</strong> e xestionaremos a reserva por ti, <strong>dando prioridade á xente que viva lonxe</strong>.",
+  "accommodation_nomad_prices_heading": "💶 Prezos por noite",
+  "accommodation_nomad_col_friday": "Venres",
+  "accommodation_nomad_col_saturday": "Sábado",
+  "accommodation_nomad_row_single": "Individual",
+  "accommodation_nomad_row_double": "Dobre",
+  "accommodation_nomad_extra_bed": "🛏️ Cama extra: 30€",
 
   "accommodation_other_heading": "Outras opcións de aloxamento",
   "accommodation_other_intro": "Molinaseca é unha bonita vila turística con diversas opcións de aloxamento para todos os gustos e orzamentos.",
